@@ -316,7 +316,8 @@ header {
   margin: 0 auto; }
   @media screen and (max-width: 768px) {
     header {
-      padding: 2em 0; } }
+      padding: 2em 0; 
+      display: inline-block;} }
   header .colorlib-navbar-brand {
     text-align: left; }
     header .colorlib-navbar-brand .colorlib-logo {
@@ -374,6 +375,11 @@ header {
         outline: none;
         text-decoration: none; 
     }
+
+    @media screen and (max-width: 768px) {
+      header .colorlib-navbar-brand {
+        display: none; } 
+      }
 
 #colorlib-services,
 #colorlib-contact,
@@ -1035,22 +1041,22 @@ header {
     *display: inline;
     width: 20px;
     height: 2px;
-    color: #000;
+    color: #fff;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
     text-indent: -55px;
-    background: #000;
+    background: #fff;
     -webkit-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .menu-show .colorlib-nav-toggle i {
-      background: #000;
+      background: #fff;
       color: #fff; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 20px;
       height: 2px;
-      background: #000;
+      background: #fff;
       position: absolute;
       left: 0;
       -webkit-transition: 0.2s;
