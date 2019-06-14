@@ -324,7 +324,7 @@ header {
       text-transform: uppercase;
       color: #fff;
       font-family: "Work Sans", Georgia, serif;
-      font-weight: 700;
+      font-weight: 200;
       letter-spacing: 10px;
       display: block;}
 
@@ -579,7 +579,7 @@ header {
       display: block;
       margin-bottom: 20px; }
     .about-flex .about-desc .about-head {
-      font-weight: 700;
+      font-weight: 300;
       font-size: 38px; }
     .about-flex .about-desc p a {
       color: #000; }
