@@ -502,7 +502,8 @@ a:focus {
   }
   .menu {
     margin-top: 5em;
-    align-items: flex-end;
+    align-items: center;
+    margin-bottom: calc(0 + 50px);
   }
 }
 
