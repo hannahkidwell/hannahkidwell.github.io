@@ -14,7 +14,6 @@
 	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/postprocessing@6.7.0/build/postprocessing.min.js"></script>
-
 </head>
 <body class="loading">
 	<main>
@@ -25,8 +24,8 @@
 			</div>
 			<div class="frame__links">
 				<a href="https://www.linkedin.com/in/hannahmayk/">projects</a>
-				<a href="https://codepen.io/hannahnannna">about</a>
-				<a href="https://github.com/hannahkidwell">work with me</a>
+			<a href="https://codepen.io/hannahnannna">about</a>
+			<a href="https://github.com/hannahkidwell">work with me</a>
 			</div>
 			<div class="frame__social">
 				<a href="https://www.instagram.com/hannahhmayy" aria-label="Link to Hannah Kidwell's Instagram">
@@ -35,93 +34,84 @@
 				<a href="https://www.behance.net/hkm" aria-label="Link to Hannah Kidwell's behance">
 					<img src="img/behance.svg" class="frame__social-behance" alt="Behance Logo" />
 				</a>
-			</div>
-			<div class="page page--preview">
-				<div class="grid-wrap">
-					<div class="grid grid--layout-1">
-						<div class="grid__item-wrap">
-							<div class="grid__item"></div>
-						</div>
-					</div>
-					<div class="grid grid--layout-2">
-						<div class="grid__item-wrap">
-							<!-- <div class="grid__item" style="background-image: url(img/2.jpg)"></div> -->
-						</div>
-					</div>
-					<div class="grid grid--layout-3">
-						<div class="grid__item-wrap">
-							<!-- <div class="grid__item" style="background-image: url(img/3.jpg)"></div> -->
-						</div>
-					</div>
-					<div class="grid grid--layout-4">
-						<div class="grid__item-wrap">
-							<!-- <div class="grid__item" style="background-image: url(img/4.jpg)"></div> -->
-					</div>
-					</div>
-					<!-- <div class="grid grid--layout-5">
-						<div class="grid__item-wrap"><div class="grid__item" style="background-image: url(img/5.jpg)"></div></div>
-					</div> -->
-					<button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
-				</div><!-- /grid-wrap -->
-			</div><!-- /page -->
-			<div class="menu-wrap">
-				<div class="menu-draggable"></div>
-				<nav class="menu">
-					<div class="menu__item">
-						<a class="menu__item-link">Pualeilani&nbsp;Shops</a>
-						<p><img src="img/hyatt-pualeilani.gif" ></p>
-						<a class="menu__item-explore" href="https://www.pualeilanishops.com/">explore</a>
-					</div>
-					<div class="menu__item">
-						<a class="menu__item-link">Trading&nbsp;Tools</a>
-						<p><img src="img/schwab.png"></p>
-						<a class="menu__item-explore" href="http://content.schwab.com/web/trading/demo/?_gl=1*1q04ge9*_gcl_aw*R0NMLjE1NzAzMzI4NjkuQ2p3S0NBandfdURzQlJBTUVpd0FhRmlIYTJobzQ1Q2F4VWVfaHRrZkwycWw3RWNmdnUwV0Zpb3loOWFfWlFqVWpkYk1HaTAzX2RVU0J4b0NjdVVRQXZEX0J3RQ..">explore</a>
-					</div>
-					<div class="menu__item">
-						<a class="menu__item-link">Rotary&nbsp;Honolulu</a>
-						<p><img src="img/rotary.png"></p>
-						<a class="menu__item-explore" href="https://www.rotaryhonolulu2020.org/">explore</a>
-					</div>
-					<!-- <div class="menu__item">
-						<a class="menu__item-link">Kobayashi&nbsp;Group</a>
-						<p><img src="img/mun.png"></p>
-						<a class="menu__item-explore">explore</a>
-					</div> -->
-					<!-- <div class="menu__item">
-						<a class="menu__item-link">Cyber&nbsp;Monday</a>
-						<a class="menu__item-explore">explore</a>
-					</div> --> 
-				</nav><!--menu-->
-			</div><!--/menu-wrap-->
-		</main>
-		<div class="cursor">
-			<div class="cursor__inner cursor__inner--circle">
-				<div class="cursor__side cursor__side--left"></div>
-				<div class="cursor__side cursor__side--right"></div>
+
 			</div>
 		</div>
 		<div id="background-vanta" class="background"></div>
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/charming.min.js"></script>
-		<script src="js/TweenMax.min.js"></script>
-		<script src="js/draggabilly.pkgd.min.js"></script>
-		<script src="js/demo.js"></script>
-		<script src="js/p5.min.js"></script>
-		<script src="js/vanta.trunk.min.js"></script>
-		<script>
-		VANTA.TRUNK({
-		el: "#background-vanta",
-		mouseControls: true,
-		touchControls: true,
-		gyroControls: false,
-		minHeight: 200.00,
-		minWidth: 200.00,
-		scale: 1.00,
-		scaleMobile: 1.00,
-		color: 0xffffff,
-		spacing: 0.50,
-		chaos: 3.50
-		})
-		</script>
-	</body>
+
+		<div class="page page--preview">
+			<div class="grid-wrap">
+				<div class="grid grid--layout-1">
+					<div class="grid__item-wrap">
+						<div class="grid__item"></div>
+					</div>
+				</div>
+				<div class="grid grid--layout-2">
+					<div class="grid__item-wrap">
+						<!-- <div class="grid__item" style="background-image: url(img/2.jpg)"></div> -->
+					</div>
+				</div>
+				<div class="grid grid--layout-3">
+					<div class="grid__item-wrap">
+						<!-- <div class="grid__item" style="background-image: url(img/3.jpg)"></div> -->
+					</div>
+				</div>
+				<div class="grid grid--layout-4">
+					<div class="grid__item-wrap">
+						<!-- <div class="grid__item" style="background-image: url(img/4.jpg)"></div> -->
+					</div>
+				</div>
+				<button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
+			</div><!-- /grid-wrap -->
+		</div><!-- /page -->
+		<div class="menu-wrap">
+			<div class="menu-draggable"></div>
+			<nav class="menu">
+				<div class="menu__item">
+					<a class="menu__item-link">Pualeilani&nbsp;Shops</a>
+					<p><img src="img/hyatt-pualeilani.gif" ></p>
+					<a class="menu__item-explore" href="https://www.pualeilanishops.com/">explore</a>
+				</div>
+				<div class="menu__item">
+					<a class="menu__item-link">Trading&nbsp;Tools</a>
+					<p><img src="img/schwab.png"></p>
+					<a class="menu__item-explore" href="http://content.schwab.com/web/trading/demo/?_gl=1*1q04ge9*_gcl_aw*R0NMLjE1NzAzMzI4NjkuQ2p3S0NBandfdURzQlJBTUVpd0FhRmlIYTJobzQ1Q2F4VWVfaHRrZkwycWw3RWNmdnUwV0Zpb3loOWFfWlFqVWpkYk1HaTAzX2RVU0J4b0NjdVVRQXZEX0J3RQ..">explore</a>
+				</div>
+				<div class="menu__item">
+					<a class="menu__item-link">Rotary&nbsp;Honolulu</a>
+					<p><img src="img/rotary.png"></p>
+					<a class="menu__item-explore" href="https://www.rotaryhonolulu2020.org/">explore</a>
+				</div>
+			</nav><!--menu-->
+		</div><!--/menu-wrap-->
+	</main>
+	<div class="cursor">
+		<div class="cursor__inner cursor__inner--circle">
+			<div class="cursor__side cursor__side--left"></div>
+			<div class="cursor__side cursor__side--right"></div>
+		</div>
+	</div>
+</body>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/charming.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/draggabilly.pkgd.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/p5.min.js"></script>
+	<script src="js/vanta.trunk.min.js"></script>
+	<script>
+	VANTA.TRUNK({
+	el: "#background-vanta",
+	mouseControls: true,
+	touchControls: true,
+	gyroControls: false,
+	minHeight: 200.00,
+	minWidth: 200.00,
+	scale: 1.00,
+	scaleMobile: 1.00,
+	color: 0xffffff,
+	spacing: 0.50,
+	chaos: 3.50
+	})
+	</script>
 </html>
