@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Hannah Kidwell</title>
-		<meta name="description" content="Hannah Kidwell - UX Artist, Visual Designer, Developer" />
-		<meta name="keywords" content="draggable, menu, navigation, thumbnails, grid, javascript, gsap, web design, layout" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" href="https://use.typekit.net/crf4rue.css">
-		<link rel="stylesheet" type="text/css" href="css/background.css" />
-		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-	</head>
-	<body class="loading">
-		<main>
-			<div class="frame">
-				<div class="frame__pagetitle">ux artist</div>
-				<div class="frame__title-wrap">
-					<h1 class="frame__title">Hannah Kidwell</h1>
-					<p class="frame__tagline">2010 &mdash; 2019</a></p>
-				</div>
-				<div class="frame__links">
-					<a href="https://www.linkedin.com/in/hannahmayk/">LinkedIn</a>
-					<a href="https://codepen.io/hannahnannna">Codepen</a>
-					<a href="https://github.com/hannahkidwell">GitHub</a>
-				</div>
-				<div class="frame__social">
-					<a href="https://www.instagram.com/hannahhmayy" aria-label="Link to Hannah Kidwell's Instagram">
-						<img src="img/instagram.svg" class="frame__social-behance" alt="Behance Logo" />
-					</a>
-					<a href="https://www.behance.net/hkm" aria-label="Link to Hannah Kidwell's behance">
-						<img src="img/behance.svg" class="frame__social-behance" alt="Behance Logo" />
-					</a>
-			
-				</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hannah Kidwell</title>
+	<meta name="description" content="Hannah Kidwell - UX Artist, Visual Designer, Developer" />
+	<meta name="keywords" content="draggable, menu, navigation, thumbnails, grid, javascript, gsap, web design, layout" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/crf4rue.css">
+	<link rel="stylesheet" type="text/css" href="css/background.css" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/postprocessing@6.7.0/build/postprocessing.min.js"></script>
+
+</head>
+<body class="loading">
+	<main>
+		<div class="frame">
+			<div class="frame__pagetitle">ux artist, developer, design-thinker.</div>
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">hannah kidwell</h1>
+			</div>
+			<div class="frame__links">
+				<a href="https://www.linkedin.com/in/hannahmayk/">projects</a>
+				<a href="https://codepen.io/hannahnannna">about</a>
+				<a href="https://github.com/hannahkidwell">work with me</a>
+			</div>
+			<div class="frame__social">
+				<a href="https://www.instagram.com/hannahhmayy" aria-label="Link to Hannah Kidwell's Instagram">
+					<img src="img/instagram.svg" class="frame__social-behance" alt="Behance Logo" />
+				</a>
+				<a href="https://www.behance.net/hkm" aria-label="Link to Hannah Kidwell's behance">
+					<img src="img/behance.svg" class="frame__social-behance" alt="Behance Logo" />
+				</a>
 			</div>
 			<div class="page page--preview">
 				<div class="grid-wrap">
@@ -64,28 +64,6 @@
 					<button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
 				</div><!-- /grid-wrap -->
 			</div><!-- /page -->
-			<div class="background">
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
 			<div class="menu-wrap">
 				<div class="menu-draggable"></div>
 				<nav class="menu">
@@ -122,10 +100,28 @@
 				<div class="cursor__side cursor__side--right"></div>
 			</div>
 		</div>
+		<div id="background-vanta" class="background"></div>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
 		<script src="js/charming.min.js"></script>
 		<script src="js/TweenMax.min.js"></script>
 		<script src="js/draggabilly.pkgd.min.js"></script>
 		<script src="js/demo.js"></script>
+		<script src="js/p5.min.js"></script>
+		<script src="js/vanta.trunk.min.js"></script>
+		<script>
+		VANTA.TRUNK({
+		el: "#background-vanta",
+		mouseControls: true,
+		touchControls: true,
+		gyroControls: false,
+		minHeight: 200.00,
+		minWidth: 200.00,
+		scale: 1.00,
+		scaleMobile: 1.00,
+		color: 0xffffff,
+		spacing: 0.50,
+		chaos: 3.50
+		})
+		</script>
 	</body>
 </html>
