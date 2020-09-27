@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  --color-text: #ffffff;
+  --color-bg: #000000;
+  --color-link: #ffffff;
+  --color-link-hover: #de6565;
+  --color-menu-stroke: #de6565;
+  --color-menu-item: #de6565;
+  --color-explore: #de6565;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  font-family: niveau-grotesk, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: none;
+  overflow-x: hidden;
+}
