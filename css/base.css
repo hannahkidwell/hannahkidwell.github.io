@@ -185,6 +185,12 @@ a:focus {
   margin-top: -15em;
 }
 
+.menu__item p {
+  color: var(--color-text);
+  font-size: 1.5rem;
+}
+
+
 .page--preview ~ .menu-wrap .menu__item {
   --counter-opacity: 1;
 }
@@ -237,7 +243,7 @@ a:focus {
   position: relative;
   overflow: hidden;
   display: inline-block;
-  text-shadow: 1px 1px 5px #7e7e7e7e;
+  /* text-shadow: 1px 1px 5px #7e7e7e7e; */
 }
 
 .letter__inner {
