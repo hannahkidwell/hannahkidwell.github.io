@@ -726,11 +726,11 @@
 
     const ANIMATION_SETTINGS = {
         // Animation settings (after the drag ends, the menu, letters and images need to be positioned or reset)
-        menu: {duration: 0.8, ease: Cubic.easeOut},
-        letters: {duration: 0.8, ease: Cubic.easeOut},
+        menu: {duration: 0.25, ease: Cubic.none},
+        letters: {duration: 0.25, ease: Cubic.none},
         images: {duration: 1, ease: Quint.easeOut},
         // Grid
-        grid: {duration: 0.8, ease: Expo.easeOut},
+        grid: {duration: 0.2, ease: Expo.none},
         // Hiding the letters to show the images grid
         allMenuLettersToggle: {duration: 0.8, ease: Expo.easeOut},
         // Explore link

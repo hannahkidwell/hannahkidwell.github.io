@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Hannah Kidwell</title>
 	<meta name="description" content="Hannah Kidwell - UX Artist, Visual Designer, Developer" />
-	<meta name="keywords" content="draggable, menu, navigation, thumbnails, grid, javascript, gsap, web design, layout" />
+	<meta name="keywords" content="hannah kidwell, ux, ui, design, product, ai, machine learning, developer" />
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://use.typekit.net/crf4rue.css">
 	<link rel="stylesheet" type="text/css" href="css/background.css" />
@@ -18,9 +18,9 @@
 <body class="loading">
 	<main>
 		<div class="frame">
-			<div class="frame__pagetitle">ux, data, development, design-thinking.</div>
 			<div class="frame__title-wrap">
-				<h1 class="frame__title"><a href="index.html">hannah kidwell</a></h1>			</div>
+				<h1 class="frame__title"><a href="index.html">hannah <span class="name__outline">kidwell</span></a></h1>			</div>
+			<div class="frame__pagetitle">ux, data, development, design-thinking.</div>
 			<div class="frame__links">
 			<a href="https://www.linkedin.com/in/hannahmayk/">projects</a>
 			<a href="https://www.linkedin.com/in/hannahmayk/">topics</a>
@@ -37,29 +37,34 @@
 
 			</div>
 		</div>
-		<div id="background-vanta" class="background"></div>
+		<div id="background-vanta" class="background"><canvas id="defaultCanvas0" width="1148" height="1014" class="vanta-canvas" style="width: 574px; height: 507px; position: absolute; z-index: 0; top: 0px; left: 0px; background: rgb(34, 36, 38);"></canvas></div>
 
 		<div class="page page--preview">
 			<div class="grid-wrap">
 				<div class="grid grid--layout-1">
 					<div class="grid__item-wrap">
-						<div class="grid__item"></div>
+						<div class="grid__item" style="opacity: 1;"></div>
 					</div>
 				</div>
-				<button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"/></svg></button>
+				<button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15"><path d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z" fill="#de6565"></path></svg></button>
 			</div><!-- /grid-wrap -->
 		</div><!-- /page -->
 		<div class="menu-wrap">
-			<div class="menu-draggable"></div>
-			<nav class="menu">
+			<div class="menu-draggable" style="touch-action: none;"></div>
+			<nav class="menu flickity-enabled" style="transform: matrix(1, 0, 0, 1, 164.164, 0);">
 				<div class="menu__item">
-					<a class="menu__item-link">Projects</a>
+					<a class="menu__item-link">Design</a>
 					<p>See work exeprience ranging from UX and UI of custom software solutions on agile teams, to directing impactful user-experince on advertising campaigns.</p>
 					<a class="menu__item-explore" href="https://www.pualeilanishops.com/">explore selected work</a>
 				</div>
-				<div class="menu__item">
+					<div class="menu__item">
+					<a class="menu__item-link">Data</a>
+					<p>Work consisting of development, machine learning, and AI.</p>
+					<a class="menu__item-explore" href="https://www.pualeilanishops.com/">explore selected work</a>
+				</div>
+                <div class="menu__item">
 					<a class="menu__item-link">Topics</a>
-					<p>Review presentations topics of design, development, data ethics & journalist applications in machine learning and artificial intelligence.</p>
+					<p>Review my writings & topics of design, development, data ethics & journalist applications in machine learning and artificial intelligence.</p>
 					<a class="menu__item-explore" href="/about">review presentations</a>
 				</div>
 			</nav><!--menu-->
@@ -73,6 +78,7 @@
 	</div>
 </body>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/flickity.js"></script>
 	<script src="js/charming.min.js"></script>
 	<script src="js/TweenMax.min.js"></script>
 	<script src="js/draggabilly.pkgd.min.js"></script>
