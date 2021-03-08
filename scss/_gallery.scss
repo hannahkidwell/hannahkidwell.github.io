@@ -1,0 +1,113 @@
+.gallery_area{
+    padding-bottom: 160px;
+    padding-top: 80px;
+    @media #{$mobile_device}{
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    @media #{$mid_device}{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    .single_gallery{
+        overflow: hidden;
+        a{
+            display: block;
+            img{
+                width: 100%;
+                @include transform(scale(1));
+                @include transition (.3s);
+
+            }
+            &:hover img{
+                transform: scale(1.2);
+            }
+        }
+    }
+    .grid-item{
+        margin-bottom: 40px;
+        @media #{$mobile_device}{
+            margin-bottom: 30px;
+        }
+        
+    }
+    .container-fluid{
+        max-width: 1500px;
+        @media #{$large_device} {
+            max-width: 1100px;
+        }
+        @media #{$tablet_device} {
+            max-width: 700px;
+        }
+        @media #{$mid_device} {
+            max-width: 900px;
+        }
+        @media #{$ex_large} {
+            max-width: 1400px;
+        }
+        // padding : 0 209px !important;
+        // @media #{$mobile_device}{
+        //     padding: 0 15px !important;
+        // }
+        // @media #{$tablet_device}{
+        //     padding: 0 15px !important;
+        // }
+        // @media #{$large_device}{
+        //     padding: 0 20px !important;
+        // }
+        // @media #{$mid_device}{
+        //     padding: 0 0px !important;
+        // }
+        // @media #{$xl}{
+        //     padding : 0 109px !important;
+        // }
+        // @media #{$mid_device}{
+        //     padding : 0 209px !important;
+        // }
+        .row.grid {
+            margin-right: -20px;
+            margin-left: -20px;
+            @media #{$mobile_device}{
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+            @media #{$tablet_device}{
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+            @media #{$large_device}{
+                margin-right: -20px;
+                margin-left: -20px;
+            }
+            .col-lg-4{
+                padding-right: 20px;
+                padding-left: 20px;
+                @media #{$mobile_device}{
+                    padding-right: 15px;
+                    padding-left: 15px;
+                }
+                // @media #{$tablet_device}{
+                //     padding-right: 15px;
+                //     padding-left: 15px;
+                // }
+                // @media #{$large_device}{
+                //     padding-right: 20px;
+                //     padding-left: 20px;
+                // }
+            }
+        }
+    }
+
+    // .container{
+    //     max-width: 1500px;
+    // }
+    // .row.grid {
+    //     margin-right: -20px;
+    //     margin-left: -20px;
+    //     .col-lg-4{
+    //         padding-right: 20px;
+    //         padding-left: 20px;
+    //     }
+    // }
+}

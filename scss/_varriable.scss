@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Poppins:200,200i,300,300i,400,500,600,700,800&display=swap');
+
+// fonts
+$font1:  'Playfair Display', serif;
+$font2: 'Poppins', sans-serif;
+// fonts-size
+
+
+
+
+
+$theme-color: #000021;
+$theme-color2: #ff5e13;
+
+$gray-color3:#5c5c5c;
+$white_color:#fff;
+
+
+// font_color 
+
+$color_1: #000021;
+$color_2: #707b8e;
+$color_3: #ae6060;
+$color_4: #000021;
+
+
+// ,,,,,,,,,,,
+$btn_bg: #000021;
+$btn_hover: #f5790b;
+$section_bg: #f7f7f7;
+$section_bg_1: #454545;
+$heading_color: #191d34;
+$heading_color2: #ff8b23;
+
+
+/* xl Normal desktop :1200px. */
+$xl:'(min-width: 1500px) and (max-width: 1700px)';
+
+/* Normal desktop :1200px. */
+$large_device:'(min-width: 1200px) and (max-width: 1500px)';
+
+/* Normal desktop :992px. */
+$mid_device:'(min-width: 992px) and (max-width: 1200px)';
+
+/* Tablet desktop :768px. */
+$tablet_device:'(min-width: 768px) and (max-width: 991px)';
+
+/* small mobile :320px. */
+$mobile_device:'(max-width: 767px)';
+
+/* Large Mobile :480px. */
+$large_mobile:'only screen and (min-width: 480px) and (max-width: 767px)';
+
+/* Large Mobile :480px. */
+$ex_large:'only screen and (min-width: 1501px) and (max-width: 1600px)';
+

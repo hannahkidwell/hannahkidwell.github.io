@@ -1,0 +1,20 @@
+.brad_area{
+    .brand_active{
+        &:last-child{
+            border-right: 0;
+        }
+    }
+    .single_brand{
+        text-align: center;
+        height: 300px;
+        border-right: 1px solid #e8f3fe;
+        @media #{$mobile_device}{
+           height: 200px;
+            border: 0;
+        }
+        img{
+            width: auto;
+            display: inline-block;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+// .hire_bg{
+//     background-image: url(../img/hire/hire-bg.png);
+// }
+.hire_area{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 145px 0 150px 0;
+    background-image: url(../img/hire/hire-bg.png);
+    @media #{$mobile_device} {
+        padding: 100px 0 ;
+    }
+    .section_title{
+
+    }
+    .hire_btn{
+        margin-top: 87px;
+        @media #{$mobile_device}{
+            margin-top: 30px;
+        }
+    }
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}

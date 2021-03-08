@@ -1,0 +1,42 @@
+.boxed-btn {
+	background: $btn_bg;
+	color: $white_color;
+	display: inline-block;
+	padding: 16px 40px 15px 40px;
+	font-family: $font2;
+	font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid transparent;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    &:hover{
+        background: $white_color;
+        color: $btn_bg;
+        border: 1px solid $btn_bg;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+.boxed-btn2 {
+	background: $white_color;
+	color: $btn_bg;
+	display: inline-block;
+	padding: 18px 50px 18px 50px;
+	font-family: $font2;
+	font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    &:hover{
+        background:  $btn_bg;
+        color: $white_color;
+    }
+    &:focus{
+        outline: none;
+    }
+}
