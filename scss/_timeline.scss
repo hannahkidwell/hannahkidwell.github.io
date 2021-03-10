@@ -28,10 +28,12 @@
         }
         h3{
           font-size: 35px;  
-          font-weight: 900;
+          font-weight: 400;
           line-height: 50px;
           text-transform: uppercase;
-          color: #ae6060;
+          color: #000021;
+          font-family: "Poppins", sans-serif;
+          letter-spacing: 1.5px;
           @media #{$mobile_device}{
               margin-bottom: 30px;
               font-size: 31px;

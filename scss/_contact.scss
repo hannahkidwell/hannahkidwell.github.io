@@ -11,10 +11,10 @@
     padding: 100px 0;
   }
   .blue_bg{
-    background: #ae6060;
+    background: #99ecdc;
   }
   .contact_text{
-    background: #ae6060;
+    background: #99ecdc;
     @media #{$mobile_device}{
       padding: 30px 0;
     }
@@ -22,7 +22,7 @@
       font-size: 40px;
       font-weight: 900;
       line-height: 55px;
-      color: #fff;
+      color: #000021;
       @media #{$mobile_device} {
         font-size: 25px;
       line-height: 35px;

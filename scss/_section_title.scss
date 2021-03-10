@@ -57,9 +57,9 @@
         }
     }
     span{
-        font-size: 14px;
+        font-size: 1.25em;
         font-family: $font2;
-        color: $color_3;
+        color: $theme_color;
         text-transform: uppercase;
         font-weight: 400;
         letter-spacing: 2.7px;
@@ -67,9 +67,10 @@
         display: block;
     }
     .doted_img{
+        right: 30%;
+        left: auto;
+        bottom: -100%;
         position: absolute;
-        right: 50%;
-        top: 0;
         z-index: -1;
         @media #{$mobile_device} {
             width: 100px;
