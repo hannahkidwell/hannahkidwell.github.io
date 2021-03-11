@@ -1029,6 +1029,7 @@ h3 {
     display: none; }
     @media (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
       .banner_area .mobile-person {
+        max-width: 100%;
         width: 100%;
         display: block;
         padding-bottom: 2em; } }

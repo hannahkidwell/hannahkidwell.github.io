@@ -132,7 +132,8 @@
     .mobile-person{
         display:none;
         @media #{$mobile_device}, #{$tablet_device} {
-            width:100%;
+            max-width:100%;
+            width: 100%;
             display: block;
             padding-bottom: 2em;
         }
