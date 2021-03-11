@@ -506,7 +506,9 @@ h3 {
     z-index: -1; }
     @media (max-width: 767px) {
       .section_title .doted_img {
-        width: 100px; } }
+        width: 100px;
+        bottom: 5%;
+        right: 35%; } }
     @media (max-width: 767px) {
       .section_title .doted_img img {
         width: 100%; } }
@@ -684,7 +686,11 @@ h3 {
       .header-area .main-header-area {
         padding: 20px 20px; } }
     .header-area .main-header-area .quick_links {
-      text-align: left; }
+      text-align: left;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      color: #000021; }
       .header-area .main-header-area .quick_links ul li {
         display: inline-block;
         padding: 0 28px;
@@ -1082,7 +1088,7 @@ h3 {
           height: 90px; } }
       @media (max-width: 767px) {
         .service_area .single_service .service_icon img {
-          width: 100%; } }
+          height: 65% !important; } }
     .service_area .single_service .number {
       color: #cccccc;
       font-size: 60px;

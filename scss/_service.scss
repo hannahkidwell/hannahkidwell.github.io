@@ -32,7 +32,7 @@
             }
             img{
                 @media #{$mobile_device}{
-                    width: 100%;
+                    height: 65%!important;
                 }
             }
         }

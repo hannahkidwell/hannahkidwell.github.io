@@ -46,6 +46,10 @@
         }
         .quick_links{
             text-align: left;
+            font-size: 14px;
+            font-weight: 400;
+            font-family: $font2;
+            color: $color_1;
             ul{
                 li{
                     display: inline-block;
