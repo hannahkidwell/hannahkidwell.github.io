@@ -376,14 +376,14 @@ h3 {
   text-transform: capitalize;
   cursor: pointer; }
   .boxed-btn:hover {
-    background: #fff;
+    background: transparent;
     color: #000021;
     border: 1px solid #000021; }
   .boxed-btn:focus {
     outline: none; }
 
 .boxed-btn2 {
-  background: #fff;
+  background: transparent;
   color: #000021;
   display: inline-block;
   padding: 18px 50px 18px 50px;
@@ -396,7 +396,7 @@ h3 {
   cursor: pointer; }
   .boxed-btn2:hover {
     background: #000021;
-    color: #fff;
+    color: transparent;
     border: 1px solid #fff; }
   .boxed-btn2:focus {
     outline: none; }
@@ -915,15 +915,15 @@ h3 {
   position: relative;
   z-index: 0;
   background: #fcf8fa;
-  padding-top: 267px;
-  padding-bottom: 215px; }
+  padding-top: 200px;
+  padding-bottom: 170px; }
   @media (max-width: 767px) {
     .banner_area {
-      padding-top: 140px;
-      padding-bottom: 120px; } }
+      padding-top: 80px;
+      padding-bottom: 80px; } }
   @media (min-width: 768px) and (max-width: 991px) {
     .banner_area {
-      padding: 200px 0; } }
+      padding: 100px 0; } }
   @media (min-width: 992px) and (max-width: 1200px) {
     .banner_area {
       padding-top: 167px;

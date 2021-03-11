@@ -12,7 +12,7 @@
     text-transform: capitalize;
     cursor: pointer;
     &:hover{
-        background: $white_color;
+        background: transparent;
         color: $btn_bg;
         border: 1px solid $btn_bg;
     }
@@ -21,7 +21,7 @@
     }
 }
 .boxed-btn2 {
-	background: $white_color;
+	background: transparent;
 	color: $btn_bg;
 	display: inline-block;
 	padding: 18px 50px 18px 50px;
@@ -34,7 +34,7 @@
     cursor: pointer;
     &:hover{
         background:  $btn_bg;
-        color: $white_color;
+        color: transparent;
         border: 1px solid $white_color;
     }
     &:focus{

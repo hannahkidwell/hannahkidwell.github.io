@@ -3,14 +3,14 @@
     position: relative;
     z-index: 0;
     background: #fcf8fa;
-    padding-top: 267px;
-    padding-bottom: 215px;
+    padding-top: 200px;
+    padding-bottom: 170px;
     @media #{$mobile_device} {
-        padding-top: 140px;
-        padding-bottom: 120px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     @media #{$tablet_device} {
-       padding: 200px 0;
+       padding: 100px 0;
     }
     @media #{$mid_device} {
         padding-top: 167px;
