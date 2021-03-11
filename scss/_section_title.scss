@@ -73,9 +73,9 @@
         position: absolute;
         z-index: -1;
         @media #{$mobile_device} {
-            width: 100px;
-            bottom: 5%;
-            right: 35%;
+            width: 200px;
+            bottom: 0;
+            right: 30%;
         }
         img{
             @media #{$mobile_device} {

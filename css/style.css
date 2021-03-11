@@ -506,9 +506,9 @@ h3 {
     z-index: -1; }
     @media (max-width: 767px) {
       .section_title .doted_img {
-        width: 100px;
-        bottom: 5%;
-        right: 35%; } }
+        width: 200px;
+        bottom: 0;
+        right: 30%; } }
     @media (max-width: 767px) {
       .section_title .doted_img img {
         width: 100%; } }
@@ -682,7 +682,7 @@ h3 {
     @media (min-width: 992px) and (max-width: 1200px) {
       .header-area .main-header-area {
         padding: 20px 20px; } }
-    @media (min-width: 1200px) and (max-width: 1500px) {
+    @media (min-width: 1200px) and (max-width: 1700px) {
       .header-area .main-header-area {
         padding: 20px 20px; } }
     .header-area .main-header-area .quick_links {
@@ -762,7 +762,7 @@ h3 {
       @media (min-width: 992px) and (max-width: 1200px) {
         .header-area .main-header-area.sticky {
           padding: 10px 20px; } }
-      @media (min-width: 1200px) and (max-width: 1500px) {
+      @media (min-width: 1200px) and (max-width: 1700px) {
         .header-area .main-header-area.sticky {
           padding: 10px 20px; } }
       .header-area .main-header-area.sticky .main-menu {
@@ -895,7 +895,7 @@ h3 {
       @media (min-width: 992px) and (max-width: 1200px) {
         .offcanvas_menu .offcanvas_menu_inner nav ul li a {
           font-size: 40px; } }
-      @media (min-width: 1200px) and (max-width: 1500px) {
+      @media (min-width: 1200px) and (max-width: 1700px) {
         .offcanvas_menu .offcanvas_menu_inner nav ul li a {
           font-size: 50px; } }
       .offcanvas_menu .offcanvas_menu_inner nav ul li a:hover {
@@ -976,6 +976,9 @@ h3 {
         font-size: 16px;
         color: #707b8e;
         font-weight: 300; }
+        @media (min-width: 1200px) and (max-width: 1700px) {
+          .banner_area .banner_inner .banner_text .branding_interaction p {
+            max-width: 450px; } }
     .banner_area .banner_inner .banner_text .video_play a {
       display: inline-block;
       width: 60px;
@@ -1012,16 +1015,23 @@ h3 {
       .banner_area .person_thumb {
         right: 2%;
         text-align: right; } }
-    @media (min-width: 1200px) and (max-width: 1500px) {
+    @media (min-width: 1200px) and (max-width: 1700px) {
       .banner_area .person_thumb {
         right: 2%;
         text-align: right; } }
     @media (min-width: 992px) and (max-width: 1200px) {
       .banner_area .person_thumb img {
         width: 70%; } }
-    @media (min-width: 1200px) and (max-width: 1500px) {
+    @media (min-width: 1200px) and (max-width: 1700px) {
       .banner_area .person_thumb img {
         width: 88%; } }
+  .banner_area .mobile-person {
+    display: none; }
+    @media (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+      .banner_area .mobile-person {
+        width: 100%;
+        display: block;
+        padding-bottom: 2em; } }
   .banner_area .quick_social_links {
     position: absolute;
     top: 50%;
@@ -1268,7 +1278,7 @@ h3 {
         margin-bottom: 30px; } }
   .gallery_area .container-fluid {
     max-width: 1500px; }
-    @media (min-width: 1200px) and (max-width: 1500px) {
+    @media (min-width: 1200px) and (max-width: 1700px) {
       .gallery_area .container-fluid {
         max-width: 1100px; } }
     @media (min-width: 768px) and (max-width: 991px) {
@@ -1291,7 +1301,7 @@ h3 {
         .gallery_area .container-fluid .row.grid {
           margin-right: -15px;
           margin-left: -15px; } }
-      @media (min-width: 1200px) and (max-width: 1500px) {
+      @media (min-width: 1200px) and (max-width: 1700px) {
         .gallery_area .container-fluid .row.grid {
           margin-right: -20px;
           margin-left: -20px; } }

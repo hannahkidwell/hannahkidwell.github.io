@@ -68,6 +68,9 @@
                     font-size: 16px;
                     color: #707b8e;
                     font-weight: 300;
+                    @media #{$large_device} {
+                        max-width: 450px;
+                    }
                 }
             }
             .video_play{
@@ -124,6 +127,14 @@
             @media #{$large_device}{
                 width: 88%;
             }
+        }
+    }
+    .mobile-person{
+        display:none;
+        @media #{$mobile_device}, #{$tablet_device} {
+            width:100%;
+            display: block;
+            padding-bottom: 2em;
         }
     }
     .quick_social_links{
