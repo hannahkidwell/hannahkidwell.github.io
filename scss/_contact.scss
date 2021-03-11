@@ -8,7 +8,7 @@
   padding: 150px 0;
   background-image: url(../img/contact/contact_bg.png);
   @media #{$mobile_device}{
-    padding: 100px 0;
+    padding: 0; /* 100px 0; */
   }
   .blue_bg{
     background: #99ecdc;
@@ -37,7 +37,7 @@
     background: #fff;
     padding: 100px 120px 100px 57px;
     @media #{$mobile_device}{
-      padding: 40px 30px;
+      padding: 40px 30px; 
     }
     @media #{$tablet_device}{
       padding: 80px 50px;

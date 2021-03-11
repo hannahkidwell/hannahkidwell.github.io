@@ -35,6 +35,49 @@
     &:hover{
         background:  $btn_bg;
         color: $white_color;
+        border: 1px solid $white_color;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.outline-btn {
+	background: $white_color;
+	color: $btn_bg;
+	display: inline-block;
+	padding: 18px 50px 18px 50px;
+	font-family: $font2;
+	font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    &:hover{
+        background: $btn_bg;
+        color:  $white_color;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+.outline-btn2 {
+	background: $btn_bg;
+	color: $white_color;
+	display: inline-block;
+	padding: 18px 50px 18px 50px;
+	font-family: $font2;
+	font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #fff;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    &:hover{
+        background: $white_color;
+        color: $btn_bg;
     }
     &:focus{
         outline: none;

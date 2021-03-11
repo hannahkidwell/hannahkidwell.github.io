@@ -3,6 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    background: #fcf8fa;
     position: relative;
     z-index: 9;
     padding-bottom: 223px;
@@ -35,7 +36,7 @@
             }
         }
     }
-    .socail_links{
+    .social_links{
        margin-bottom: 30px;
         ul{
             li{
@@ -138,13 +139,12 @@
                 }
                 a{
                     display: inline-block;
-                    text-transform: uppercase;
                     font-size: 14px;
-                    font-family: $font1;
-                    font-weight: 900;
+                    font-family: $font2;
+                    font-weight: 700;
                     color: #000021;
                     &:hover{
-                        color: #4508fa;
+                        color: #AC5B5B;
                     }
                 }
             }
