@@ -137,6 +137,9 @@
             display: block;
             padding-bottom: 2em;
         }
+        @media #{$mobile_device} {
+            max-width:250px;
+        }
     }
     .quick_social_links{
         position: absolute;

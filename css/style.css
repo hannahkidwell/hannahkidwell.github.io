@@ -899,7 +899,7 @@ h3 {
         .offcanvas_menu .offcanvas_menu_inner nav ul li a {
           font-size: 50px; } }
       .offcanvas_menu .offcanvas_menu_inner nav ul li a:hover {
-        color: #4508fa; }
+        color: #AC5B5B; }
   .offcanvas_menu .Quick_links {
     margin-top: 40px; }
     .offcanvas_menu .Quick_links ul li {
@@ -1033,6 +1033,9 @@ h3 {
         width: 100%;
         display: block;
         padding-bottom: 2em; } }
+    @media (max-width: 767px) {
+      .banner_area .mobile-person {
+        max-width: 250px; } }
   .banner_area .quick_social_links {
     position: absolute;
     top: 50%;
