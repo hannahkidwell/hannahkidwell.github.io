@@ -1067,7 +1067,7 @@ h3 {
 
 .service_area {
   padding-top: 210px;
-  padding-bottom: 160px; }
+  padding-bottom: 0; }
   @media (max-width: 767px) {
     .service_area {
       padding-top: 130px;
@@ -1249,7 +1249,7 @@ h3 {
             margin-bottom: 30px; } }
 
 .gallery_area {
-  padding-bottom: 160px;
+  padding-bottom: 0;
   padding-top: 80px; }
   @media (max-width: 767px) {
     .gallery_area {
