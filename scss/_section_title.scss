@@ -1,3 +1,14 @@
+.section_title.project{
+    position: relative;
+    z-index: 9;
+    &:before{
+        display: none;
+    }
+    &::after{
+        display: none;
+    }
+}
+
 .section_title{
     position: relative;
     z-index: 9;

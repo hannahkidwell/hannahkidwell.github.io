@@ -437,6 +437,14 @@ h3 {
   .outline-btn2:focus {
     outline: none; }
 
+.section_title.project {
+  position: relative;
+  z-index: 9; }
+  .section_title.project:before {
+    display: none; }
+  .section_title.project::after {
+    display: none; }
+
 .section_title {
   position: relative;
   z-index: 9; }
@@ -1494,7 +1502,7 @@ h3 {
     padding: 100px 120px 100px 57px; }
     @media (max-width: 767px) {
       .contact_form_area .contact_form {
-        padding: 40px 30px; } }
+        padding: 50px 30px; } }
     @media (min-width: 768px) and (max-width: 991px) {
       .contact_form_area .contact_form {
         padding: 80px 50px; } }
